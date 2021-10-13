@@ -1,0 +1,43 @@
+.nav-bar {
+    width: 100%;
+    height: 53px;
+    background-color: #2196F3;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.app-logo {
+    font-size: x-large;
+    padding-left: 18px;
+}
+
+.app-logo-sm {
+    padding-left: 18px;
+    display: none;
+}
+
+.app-logo,
+.app-logo-sm{
+    cursor: pointer;
+}
+
+.first {
+    font-size: xx-large;
+}
+
+.last {
+    font-weight: lighter;
+    font-size: large;
+}
+
+@media screen and (max-width: 500px) {
+    .app-logo {
+        display: none;
+    }
+    .app-logo-sm {
+        display: block;
+    }
+}
