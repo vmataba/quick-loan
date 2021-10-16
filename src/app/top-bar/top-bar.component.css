@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+}
+
+.pill {
+    margin-right: 15px;
+    width: 125px;
+    background-color: #00B0FF;
+    color: #ffff;
+    padding: 8px;
+    font-size: small;
+}
+.pill:hover{
+    font-weight: bold;
+}

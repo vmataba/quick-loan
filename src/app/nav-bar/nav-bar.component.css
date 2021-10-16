@@ -1,17 +1,20 @@
 .nav-bar {
     width: 100%;
-    height: 53px;
+    height: 62px;
     background-color: #2196F3;
     margin: 0px;
     display: flex;
     align-items: center;
     color: #FFF;
     font-weight: bold;
+    position: fixed;
+    z-index: 200;
 }
 
 .app-logo {
     font-size: x-large;
     padding-left: 18px;
+    padding-bottom: 5px;
 }
 
 .app-logo-sm {
@@ -19,13 +22,12 @@
     display: none;
 }
 
-.app-logo,
-.app-logo-sm{
+.app-logo, .app-logo-sm {
     cursor: pointer;
 }
 
 .first {
-    font-size: xx-large;
+    font-size: 2em;
 }
 
 .last {
@@ -40,4 +42,9 @@
     .app-logo-sm {
         display: block;
     }
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
